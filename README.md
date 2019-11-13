@@ -1,3 +1,9 @@
+# Scoreboard: a web app for keeping track of Quiz scores
+
+This web app is initially written to keep track of each teams score per round during a quiz event organised by the local Scout group.
+The use-cases are rather specific to this quiz but who knows, perhaps if I find the time I might make it usable for other people as well (mainly internationalization is currently missing).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

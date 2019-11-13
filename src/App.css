@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+.main-content {
+  padding-top: 5vh;
+}
+
+.finalscore-row {
+  height: 3.2em
+}
