@@ -124,7 +124,7 @@ export const makeGetSortedRoundScores = () => {
                     }
                 }),
                 ['group'],
-                ['asc']
+                ['desc']
             )
         }
     )

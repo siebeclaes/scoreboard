@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const FinalScore = ({ranking, blank, finalScore}) => (
-    <tr className="finalscore-row">
-        <td>{!blank && ranking}</td>
-        <td>{!blank && finalScore.groupName}</td>
+    <tr className={"finalscore-row" + (blank? " hidden-score" : "")}>
+        <td>{ranking}</td>
+        <td>{finalScore.groupName}</td>
         {finalScore.roundScores.map((roundScore, index) => (
-            <td key={index}>{!blank && (roundScore.joker? roundScore.points * 2 + "*" : roundScore.points)}</td>
+            <td key={index}>{(roundScore.joker? roundScore.points * 2 + "*" : roundScore.points)}</td>
         ))}
-        <td>{!blank && finalScore.totalScore}</td>
+        <td>{finalScore.totalScore}</td>
     </tr>
 )
 

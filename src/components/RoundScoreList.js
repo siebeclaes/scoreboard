@@ -15,8 +15,8 @@ const RoundScoreList = ({scores}) => (
         </thead>
         <tbody>
             {scores.map((score, index) => (
-                <Score key={index} group={score.group} groupName={score.groupName} points={score.points} joker={score.joker} />
-            ))}
+                    <Score key={index} group={score.group} groupName={score.groupName} points={score.points} joker={score.joker} />
+                ))}
         </tbody>
     </Table>
 )

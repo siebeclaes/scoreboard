@@ -28,3 +28,13 @@
 .finalscore-row {
   height: 3.2em
 }
+
+
+.table-striped tbody tr:nth-of-type(2n+1).hidden-score {
+  color: rgba(0, 0, 0, 0)
+}
+
+
+.table-striped tbody tr:nth-of-type(2n).hidden-score {
+  color: rgba(255, 255, 255, 0.05)
+}
